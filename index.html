@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 
 <head>
   <meta charset="utf-8">
   <title>Седона</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
-  <header>
-    <a>
+<body class="page-body">
+  <header class="main-header">
+    <a class="main-logo">
       <img src="https://via.placeholder.com/138x70" alt="Логотип Седона" width="138" height="70">
     </a>
-    <nav>
-      <ul>
+    <nav class="main-navigation">
+      <ul class="site-navigation">
         <li><a href="blank.html">Информация</a></li>
         <li><a href="blank.html">Фото и видео</a></li>
         <li><a href="blank.html">Карта штата</a></li>
@@ -20,109 +23,108 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <p>
-      <img src="img/Shape1.png" alt="Welcome" width="188" height="45">
-      <img src="img/Shape2.png" alt="To the gorgeous" width="256" height="29">
-      <img src="img/Shape3.png" alt="Sedona" width="457" height="213">
+  <main class="container">
+    <p class="welcome-image">
+      <img src="img/welcome.svg" alt="Welcome" width="457" height="351">
     </p>
     <h1>Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
-    <section>
-      <h2>Преимущества</h2>
-      <p>
+    <section class="features">
+      <h2 class="visually-hidden">Преимущества</h2>
+      <p class="features-title">
         Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
       </p>
-      <section>
-        <h3>Настоящий городок</h3>
+      <div class="feature-item feauture-block">
+        <h3 class="feature-subtitle">Настоящий городок</h3>
         <span>-№1-</span>
         <p>
-          Седона - не аттракцион для туристов, там
-          <br>
+          Седона - не аттракцион для туристов, там<br>
           течёт своя жизнь
         </p>
-        <ul>
-          <li>
-            <h3>Жильё</h3>
-            <p>
-              Рекомендуем пожить в настоящем
-              <br>
-              мотеле, всё как в кино!
-            </p>
-          </li>
-          <li>
-            <h3>Еда</h3>
-            <p>
-              Всегда заказывайте фирменный бургер,
-              <br>
-              вы не разочаруетесь!
-            </p>
-          </li>
-          <li>
-            <h3>Сувениры</h3>
-            <p>
-              Не только китайского, но и местного
-              <br>производства!
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3>Там есть мост дьявола</h3>
+      </div>
+      <ul class="sub-features-list">
+        <li class="sub-feature-item">
+          <h3 class="feature-subtitle">Жильё</h3>
+          <p>
+            Рекомендуем пожить в настоящем<br>
+            мотеле, всё как в кино!
+          </p>
+        </li>
+        <li class="sub-feature-item">
+          <h3 class="feature-subtitle">Еда</h3>
+          <p>
+            Всегда заказывайте фирменный бургер,<br>
+            вы не разочаруетесь!
+          </p>
+        </li>
+        <li class="sub-feature-item">
+          <h3 class="feature-subtitle">Сувениры</h3>
+          <p>
+            Не только китайского, но и местного<br>
+            производства!
+          </p>
+        </li>
+      </ul>
+      <div class="feature-item feauture-block">
+        <h3 class="feature-subtitle">Там есть мост дьявола</h3>
         <span>-№2-</span>
         <p>
-          Да, по нему можно пройти! Если конечно
-          <br>
+          Да, по нему можно пройти! Если конечно<br>
           вы осмелитесь
         </p>
-      </section>
-      <section>
-        <h3>Небольшая площадь</h3>
-        <span>-№3-</span>
+      </div>
+      <div>
+        <div class="feature-item">
+          <h3 class="feature-subtitle">Небольшая площадь</h3>
+          <span>-№3-</span>
+          <p>
+            Все достопримечательности<br> находятся очень близко
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3 class="feature-subtitle">Красивая дорога</h3>
+          <span>-№4-</span>
+          <p>
+            Ехать в Седону из Лас-Вегаса совсем<br>
+            не скучно!
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3 class="feature-subtitle">Мало туристов</h3>
+          <span>-№5-</span>
+          <p>
+            Большинство едет в Гранд Каньон<br>
+            и толпится там
+          </p>
+        </div>
+      </div>
+
+      <div class="search">
+        <h2 class="search-title">Заинтересовались?</h2>
         <p>
-          Все достопримечательности<br>находятся очень близко
+          Укажите предполагаемые даты поездки,<br>
+          и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
-        <h3>Красивая дорога</h3>
-        <span>-№4-</span>
-        <p>
-          Ехать в Седону из Лас-Вегаса совсем
-          <br>
-          не скучно!
-        </p>
-        <h3>Мало туристов</h3>
-        <span>-№5-</span>
-        <p>
-          Большинство едет в Гранд Каньон
-          <br>
-          и толпится там
-        </p>
-      </section>
-    </section>
-    <section>
-      <h2>Заинтересовались?</h2>
-      <p>
-        Укажите предполагаемые даты поездки,
-        <br>
-        и мы покажем вам лучшие предложения гостиниц в Седоне
-      </p>
-      <button type="button">Поиск гостиницы в Седоне</button>
-      <img src="https://via.placeholder.com/1199x594" alt="Карта" width="1199" height="594">
+        <button type="button" class="button-search">Поиск гостиницы в Седоне</button>
+        <img src="https://via.placeholder.com/1199x594" alt="Карта" width="1199" height="594" class="map">
+      </div>
     </section>
   </main>
-  <footer>
-    <div>
+  <footer class="page-footer">
+    <div class="wrap">
       <p>
         #VISITSEDONA
       </p>
       <a href="tel:+74956660106">Тел:+7(495)666-01-06</a>
     </div>
-    <div>
+    <div class="socials">
       <ul>
-        <li><a href="blank.html">Twitter</a></li>
-        <li><a href="blank.html">Facebook</a></li>
-        <li><a href="blank.html">YouTube</a></li>
+        <li><a class="social-button" href="blank.html">Twitter</a></li>
+        <li><a class="social-button" href="blank.html">Facebook</a></li>
+        <li><a class="social-button" href="blank.html">YouTube</a></li>
       </ul>
     </div>
-    <p>
+    <p class="copyright">
+      Website by
       <a href="https://htmlacademy.ru/intensive/htmlcss">
         <img src="https://via.placeholder.com/115x41" alt="Логотип Академии" width="115" height="41">
       </a>
