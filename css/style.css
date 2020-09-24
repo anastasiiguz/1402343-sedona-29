@@ -4,7 +4,6 @@
   --main-color: #81B3D2;
   --secondary-color: #766357;
   --bakground-light: #EEEEEE;
-  --background-main: #888888;
 
   --button-click-dark: #503E33;
   --button-hover-dark: #604E43;
@@ -14,8 +13,8 @@
   --form-field: #F2F2F2;
   --form-field-hover: #EBEBEB;
 
-  --copyright-dark: #231F20;
-  --copyright-click: #BDBBBC;
+  --creators-link-dark: #231F20;
+  --creators-link-click: #BDBBBC;
   --sort-light: #CACACA;
   --icon-light: #A9A9A9;
   --small-text: #333333;
@@ -238,7 +237,7 @@ img {
   text-align: center;
 }
 
-.copyright {
+.creators-link {
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
