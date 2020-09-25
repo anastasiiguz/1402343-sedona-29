@@ -73,7 +73,7 @@ img {
   color: var(--black-opacity);
 }
 
-.welcome-image img {
+.welcome-image {
   background-image: url(../img/background-photo.png);
   background-size: 1200px 509px;
   background-position: center;
@@ -169,6 +169,44 @@ img {
   color: var(--white-opacity);
 }
 
+.filter {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+}
+
+.search-container h3 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.sort {
+  font-size: 12;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.sort-item a {
+  font: inherit;
+  color: var(--black-opacity);
+  text-decoration: underline dashed var(--main-color);
+}
+
+.sort-item a:hover,
+.sort-item a:focus {
+  color: var(--main-color);
+}
+
+.sort-item a:active {
+  color: var(--basic-black);
+}
+
+.active-item a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.sort-list,
 .hotels {
   list-style: none;
 }
@@ -235,6 +273,10 @@ img {
 .socials ul {
   list-style: none;
   text-align: center;
+}
+
+.social-button {
+  background-color: var(--main-color);
 }
 
 .creators-link {
