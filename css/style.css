@@ -4,6 +4,7 @@
   --main-color: #81B3D2;
   --secondary-color: #766357;
   --bakground-light: #EEEEEE;
+  --basic-grey: #E5E5E5;
 
   --button-click-dark: #503E33;
   --button-hover-dark: #604E43;
@@ -35,7 +36,7 @@ body {
   font-weight: 400;
   color: var(--basic-black);
   text-transform: uppercase;
-  background-color: var(--basic-white);
+  background-color: var(--basic-grey);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -62,6 +63,9 @@ body {
 
 .main-header {
   display: grid;
+  width: 1200px;
+  justify-self: center;
+  background-color: var(--basic-white);
 }
 
 .main-logo {
@@ -89,9 +93,8 @@ img {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 1200px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0;
 }
 
 
@@ -108,10 +111,11 @@ img {
   color: var(--black-opacity);
 }
 
-.container {
+.container,
+.catalog-container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 10px;
+  background-color: var(--basic-white);
 }
 
 .welcome-image {
@@ -304,6 +308,7 @@ img {
 
 .search-container {
   display: flex;
+  white-space: nowrap;
 }
 
 .updown-icons {
